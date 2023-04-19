@@ -1,6 +1,4 @@
 {
 	"name": "Ubuntu",
-	"image": "mcr.microsoft.com/devcontainers/base:jammy",
-
-	"postCreateCommand": "chmod a+x .devcontainer/install.sh && .devcontainer/install.sh"
+	"image": "mcr.microsoft.com/devcontainers/base:jammy"
 }
