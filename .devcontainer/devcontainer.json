@@ -1,4 +1,13 @@
 {
-	"name": "Ubuntu",
-	"image": "mcr.microsoft.com/devcontainers/base:jammy"
+	"image": "osrf/ros:noetic-desktop-full",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"username": "vscode",
+			"userUid": "1000",
+			"userGid": "1000",
+			"installZsh": false,
+			"installOhMyZsh": false,
+			"upgradePackages": true
+		}
+	}
 }
