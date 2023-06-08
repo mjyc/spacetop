@@ -1,4 +1,15 @@
 {
 	"name": "Ubuntu",
-	"image": "mcr.microsoft.com/devcontainers/base:jammy"
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": false,
+			"installOhMyZsh": false,
+			"upgradePackages": true,
+			"username": "vscode",
+			"userUid": "1001",
+			"userGid": "1001"
+		},
+		"ghcr.io/guiyomh/features/vim:0": {}
+	}
 }
