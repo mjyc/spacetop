@@ -10,7 +10,6 @@
 			"userUid": "1001",
 			"userGid": "1001"
 		},
-		"ghcr.io/guiyomh/features/vim:0": {},
 		// see https://github.com/devcontainers/features/tree/main/src/desktop-lite
 		"ghcr.io/devcontainers/features/desktop-lite:1": {}
 	},
